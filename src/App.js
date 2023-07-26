@@ -32,7 +32,7 @@ export default function App() {
         </Card>
         {/*card one*/}
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="{require('./subZeroCard.jpg')}" />
           <Card.Body>
             <Card.Title className="subzero">SUB-ZERO</Card.Title>
             <Card.Text>
