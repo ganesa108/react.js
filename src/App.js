@@ -2,6 +2,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
 
 export default function App() {
   return (
@@ -55,6 +56,12 @@ export default function App() {
             </Card.Text>
           </Card.Body>
         </Card>
+        <Form.Select aria-label="Default select example">
+          <option>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </Form.Select>
       </div>
     </>
   );
