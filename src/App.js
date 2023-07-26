@@ -28,7 +28,6 @@ export default function App() {
         <Card>
           <Card.Body>
             <Card.Title>Your Favourite Character</Card.Title>
-            <Card.Text>please select your favourite character :p</Card.Text>
           </Card.Body>
         </Card>
         {/*card one*/}
