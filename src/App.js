@@ -30,7 +30,9 @@ export default function App() {
         {/*header*/}
         <Card>
           <Card.Body>
-            <Card.Title>Your Favourite Character</Card.Title>
+            <Card.Title>
+              Which one of us is your favourite MKX character?
+            </Card.Title>
           </Card.Body>
         </Card>
         {/*card one*/}
@@ -61,10 +63,10 @@ export default function App() {
         </Card>
         {/*use of forms checkpoint objective; select list.*/}
         <Form.Select aria-label="Default select example">
-          <option>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+          <option>select your favourite character here</option>
+          <option value="1">subzero</option>
+          <option value="2">mileena</option>
+          <option value="3">scorpion</option>
         </Form.Select>
       </div>
     </>
