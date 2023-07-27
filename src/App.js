@@ -3,6 +3,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
+import subzero1 from "./imgs/subzero.jpg";
+import mileena2 from "./imgs/mileena.jpg";
+import scorpion3 from "./imgs/scorpion2.jpg";
 
 {
   /*function component that returns JMX code*/
@@ -32,7 +35,7 @@ export default function App() {
         </Card>
         {/*card one*/}
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="{require('./subZeroCard.jpg')}" />
+          <Card.Img variant="top" src={subzero1} alt="sub" />
           <Card.Body>
             <Card.Title className="subzero">SUB-ZERO</Card.Title>
             <Card.Text>
@@ -42,7 +45,7 @@ export default function App() {
         </Card>
         {/*card two*/}
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src={mileena2} alt="mileena" />
           <Card.Body>
             <Card.Title className="mileena">MILEENA</Card.Title>
             <Card.Text>Tasty!</Card.Text>
@@ -50,7 +53,7 @@ export default function App() {
         </Card>
         {/*card three*/}
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <img variant="top" src={scorpion3} alt="scorpion" />
           <Card.Body>
             <Card.Title className="scorpion">SCORPION</Card.Title>
             <Card.Text>Vengeance will be mine!</Card.Text>
